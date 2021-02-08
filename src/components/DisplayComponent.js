@@ -11,11 +11,11 @@ export function DisplayComponent(props) {
 
     return (<div>
         <h4>Display Info</h4>
-        <ul class="list">
-            <li class="list-item">First Name: {model.firstName}</li>
-            <li class="list-item">Last Name: {model.lastName}</li>
-            <li class="list-item">Address: {model.address}</li>
-            <li class="list-item">Phone Nummber: {model.phone}</li>
+        <ul className="list">
+            <li className="list-item">First Name: {model.firstName}</li>
+            <li className="list-item">Last Name: {model.lastName}</li>
+            <li className="list-item">Address: {model.address}</li>
+            <li className="list-item">Phone Nummber: {model.phone}</li>
         </ul>
     </div>);
 }
